@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hamburger-menu" viewBox="0 0 16 16">
+<path d="M41,14H7a2,2,0,0,1,0-4H41A2,2,0,0,1,41,14Z" />
+<path d="M41,26H7a2,2,0,0,1,0-4H41A2,2,0,0,1,41,26Z" />
+<path d="M41,38H7a2,2,0,0,1,0-4H41A2,2,0,0,1,41,38Z" />
+</svg>

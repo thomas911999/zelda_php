@@ -1,0 +1,105 @@
+html
+{
+    --line-h : 24px;
+    --nth-lines-trunc: 5;
+    --nth-jeux : 4;
+}
+
+.border-bottom-gold
+{
+    border-bottom-color: gold;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}
+
+.border-gold
+{
+    border-color: rgb(255, 215, 0);
+    border-width: 5px;
+    border-style: solid;
+}
+
+.nav-color
+{
+    background-color: #3b2989 !important;
+    color: #7c8f9f;
+}
+
+.text-gray
+{
+    color: #7c8f9f !important;
+    font-size: 1.25rem !important;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar .navbar-nav .nav-link:hover
+{
+    border-bottom: 3px solid green;
+    background-color: transparent !important;
+    transition : none;
+}
+
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active
+{
+    color: #7c8f9f !important;
+}
+
+.nav-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,215,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+  
+
+.navbar-toggler
+{
+    border:3px solid green !important;
+}
+
+.navbar-toggler:focus
+{
+    box-shadow: 0 0 0 0.15rem;
+}
+
+.nav-button {
+    border: 3px solid green;
+  } 
+
+.txt-trunc
+{
+    /* line-height: var(--line-h);
+    max-height: calc(var(--nth-lines-trunc) * var(--line-h));
+    overflow: hidden;
+    position: relative;
+    padding-right: 12px;
+    text-align: justify; */
+
+    line-height: var(--line-h);
+    max-height: calc(var(--nth-lines-trunc) * var(--line-h));
+    position: relative;
+    text-align: justify;
+    text-overflow: clip ellipsis;
+    -webkit-line-clamp: var(--nth-lines-trunc);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+
+
+/* .txt-trunc::after
+{
+    content: "...";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+.modal
+{
+    --bs-modal-width: 680px !important;
+}
+
+.bg-body
+{
+    background : linear-gradient(to left, #00f777, rgba(57, 247, 185, 0.6)) no-repeat fixed;
+}
+

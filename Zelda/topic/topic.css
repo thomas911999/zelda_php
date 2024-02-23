@@ -1,0 +1,141 @@
+
+.zone_topic
+{
+    border: rgba(217, 207, 207, 0.4) 3px solid;
+     /* background: rgba(174, 156, 156, 0.3); */
+     background: #262520; 
+    /* background-color: transparent; */
+    border-color: rgba(240, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 85%;
+}
+
+thead
+{
+    background: #ffd700; 
+    border: solid 3px black;
+}
+
+tbody tr
+{
+    height: 70px;
+    align-content: center;
+    vertical-align: middle; 
+    color: aliceblue;
+    border: solid 3px black;
+}
+
+tbody tr:nth-child(odd)
+{
+    background: #3b2989;
+}
+
+tbody tr:nth-child(even)
+{
+    background: #2a9ef3b5;
+}
+
+tbody tr[data-href]
+{
+    cursor: pointer;
+}
+
+
+
+.zone_flex
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* .zone_flex:nth-child(even)
+{
+    justify-content: end;
+}
+
+.zone_flex:nth-child(old)
+{
+    justify-content: start;
+} */
+
+/* .CR8
+{
+    border-radius: 0;
+    background: #152731;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px;
+} */
+
+.mod2
+{
+    border-radius: 0 !important;
+     background: #152731 !important;
+     border-bottom-left-radius: 15px !important;
+     border-bottom-right-radius: 15px !important;
+     border-color: rgba(240, 255, 255, 0.5);
+     border: rgba(217, 207, 207, 0.4) 3px solid;
+}
+
+.zone_msg
+{
+    border: rgba(217, 207, 207, 0.4) 3px solid;
+     /* background: rgba(174, 156, 156, 0.3); */
+     background: #3b2989;  
+     color: aliceblue;
+    /* background-color: transparent; */
+    border-color: rgba(240, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 85%;
+}
+
+.msg_head
+{
+    border-bottom: #9594c4 2px solid;
+    background: #9581ec;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+}
+
+.zone_flex:nth-child(even)  .zone_msg
+{
+    /* justify-content: end; */
+    background: #3b2989;
+}
+
+.zone_flex:nth-child(even)  .zone_msg .msg_head
+{
+    /* justify-content: start; */
+    background: #9581ec;
+}
+
+.zone_flex:nth-child(odd) .zone_msg
+{
+    background: #2a9ef3b5;
+}
+
+.zone_flex:nth-child(odd) .zone_msg .msg_head
+{
+    background: #6ebef7;
+}
+
+.btn-mygreen:hover
+{
+    border: 3px solid green;
+}
+
+.btn-close:hover
+{
+    background-color:  transparent !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    border: transparent !important;
+}
+.btn-close:focus
+{
+   outline: none;
+}
+
+.btn-close:focus
+{
+    border: none !important;
+}

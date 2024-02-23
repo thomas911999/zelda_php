@@ -1,0 +1,26 @@
+.page
+{
+    border: 1px solid #3b2989 ;
+    text-decoration: none;
+}
+
+.page:hover
+{
+    background-color: gold;
+}
+
+.page:not([href])
+{
+    background-color: gold;
+}
+
+.perso-jeux
+{
+    min-height: calc(var(--nth-jeux) * var(--line-h));
+}
+
+.perso-uppercase
+{
+    color: gold;
+    text-transform: uppercase;
+}

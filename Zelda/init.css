@@ -1,0 +1,163 @@
+ .CR7
+{
+    border: rgba(25, 30, 25, 0.3) 3px solid;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+} 
+
+ body
+{
+    background : linear-gradient(to left, #00f777, rgba(57, 247, 185, 0.6)) no-repeat fixed;
+}  
+
+legend
+{
+    /* color: rgba(174, 156, 156, 0.7); */
+    color: rgba(255, 255, 255, 0.788);
+    font-weight: bold;
+}
+
+.basket_produit
+{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.basket_tot
+{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+}
+
+.CR8
+{
+    border: rgba(217, 207, 207, 0.4) 3px solid;
+     /* background: rgba(174, 156, 156, 0.3); */
+     background: #89a2b0; 
+ 
+    /* background-color: transparent; */
+    border-color: rgba(240, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 85%;
+}
+
+.ADD_BUTTON
+{
+    width: 30%;
+}
+
+/*Fierfox*/
+ input[type=number] {
+    -moz-appearance: textfield;
+} 
+ 
+/* Chrome */
+ input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	margin:0;
+} 
+ 
+/* meter::-webkit-meter-even-less-good-value {
+    background: linear-gradient(to bottom, #f77, #d44 45%, #d44 55%, #f77);
+    height: 100%;
+    box-sizing: border-box;
+  } */
+  
+
+/* Opéra*/
+input::-o-inner-spin-button,
+input::-o-outer-spin-button { 
+	-o-appearance: none;
+	margin:0
+} 
+
+button
+{
+    background: #17f7a38f;
+    color: hsla(0, 0%, 8%, 0.8);
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: white 2px solid;
+
+}
+
+.basket_icon
+{
+    width: 35px;
+    height: auto;
+}
+
+.btn-mygreen:hover
+{
+    color: #fff !important;
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+button:hover
+{
+    background-color:  #7c8f9f;
+    color: rgba(255, 255, 255, 0.8) !important;
+    border: 3px solid green;
+}
+
+b
+{
+    color: #3b2989;
+}
+
+h1
+{
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+}
+
+p
+{
+    font-family: 'Crimson Text', serif;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #1b6c3e;
+    color: #fff;
+  }
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited
+  {
+    background-color: #3b2989 !important;
+  }
+
+ @media screen and (max-width: 1200px){
+
+        .CR8
+        {
+            width: 90%;
+        }   
+} 
+
+@media screen and  (max-width: 800px){
+
+    .CR8
+    {
+        width: 80%;
+    }   
+}
+
+@media screen and  (max-width: 575px){
+
+    .CR8
+    {
+        width: 45%;
+    }
+    
+    .ADD_BUTTON
+    {
+        width: 50%;
+    }
+}
